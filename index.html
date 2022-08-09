@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_project</title>
+
+    <!-- CSS -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body style="background-color: rgb(16, 168, 168);">
+
+    <div id="header" class="header">
+        <div class="header_top container-md">
+            <div class="header_top-hl">
+                <span>Welcome to GAM's official site!</span>
+            </div>
+            <div class="language_box">
+                <a href="">
+                    <img src="Pictures/Icons/298411_states_of_america_united_icon.png" alt="">
+                    <span>EN</span>
+                </a>
+                <a href="">
+                    <img src="Pictures/Icons/298497_vietnam_icon.png" alt="">
+                    <span>VN</span>
+                </a>
+            </div>
+            <div class="search_button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </div>
+            <!-- <div id="find_view" class="">
+                <div class="search_bar">
+                    <span>Search</span>
+                    <input type="text" placeholder=" ...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+            </div> -->
+        </div>
+
+        <div class="header_inner container-md">
+            <div class="logo">
+                <img class="logo-pic" src="Pictures/Logo/GAM_Esportslogo_square.png" alt="">
+                <!-- <img class="logo-slogan" src="/Pictures/Logo/wrao_horizontal_black copy 2.png" alt=""> -->
+            </div>
+            <div class="main-list">
+                <ul>
+                    <li>
+                        <a href="">Apparel</a>
+                        <div class="items d-none d-lg-block">
+                            <ul>
+                                <li>Tops and T-shirt</li>
+                                <li>Hoodies and Sweatshirts</li>
+                                <li>Pants</li>
+                                <li>Bundle</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">Uniform</a></li>
+                    <li>
+                        <a href="">Accessories</a>
+                        <div class="items d-none d-lg-block">
+                            <ul>
+                                <li>Gaming Gear</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">Collectibles</a>
+                        <div class="items d-none d-lg-block">
+                            <ul>
+                                <li>Posters</li>
+                                <li>Key chains</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">Collaboration</a>
+                        <div class="items d-none d-lg-block">
+                            <ul>
+                                <li>Gam X SBTC</li>
+                                <li>Gam X Monster Energy</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="account d-none d-lg-block">
+                <ul>
+                    <li>Login</li>
+                    <li>Join</li>
+                    <li>Cart</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="main_slide" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#main_slide" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="First slide"></li>
+            <li data-bs-target="#main_slide" data-bs-slide-to="1" aria-label="Second slide"></li>
+            <li data-bs-target="#main_slide" data-bs-slide-to="2" aria-label="Third slide"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="Pictures/Mercs/Grand champion.jpeg" class="w-100 d-block" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Title</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Pictures/Mercs/Jersey banner.webp" class="w-100 d-block" class="w-100 d-block"
+                    alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Title</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Pictures/Mercs/gam time 2.jpg" class="w-100 d-block" class="w-100 d-block" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Title</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev opacity-hidden carousel-control" type="button" data-bs-target="#main_slide"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next opacity-hidden carousel-control" type="button" data-bs-target="#main_slide"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="main_session container-fluid" id="main_session">
+        <div id="new_release" class="merc-box">
+            <div class="title">
+                <h1>New Release</h1>
+                <p class="bar"></p>
+                <p class="ment">Check out Gam's new product</p>
+            </div>
+            <div class="items">
+
+                <a href="" class="item-box">
+                    <img src="Pictures/Mercs/GAM Esports 2022 Official Jersey.webp" alt="">
+                    <p class="item-name">Gam's Jersey</p>
+                    <p class="long-bar"></p>
+                    <p class="price">$300.000đ</p>
+                </a>
+                <a href="" class="item-box">
+                    <img src="Pictures/Mercs/GAM Esports Champion VCS Spring 2022 T-shirt.webp" alt="">
+                    <p class="item-name">VCS Spring 2022 Champion</p>
+                    <p class="long-bar"></p>
+                    <p class="price">$400.000đ</p>
+                </a>
+                <a href="" class="item-box">
+                    <img src="Pictures/Mercs/GAM Esports Official Varsity Jacket 2022.webp" alt="">
+                    <p class="item-name">Gam's Jacket</p>
+                    <p class="long-bar"></p>
+                    <p class="price">$450.000đ</p>
+                </a>
+            </div>
+
+        </div>
+
+        <div id="custom_jersey" class="custom-jersey">
+            <div class="title">
+                <h1>Custom official jersey</h1>
+                <p class="bar"></p>
+            </div>
+            <div class="info">
+                <img src="Pictures/Mercs/Group shot.jpg" alt="">
+                <div class="text-box">
+                    <h3>Gam's custom name
+                        <br>
+                        Official jersey 2022
+                    </h3>
+                    <p class="ment">
+                        Customize your own Jersey,
+                        <br>
+                        The best experience for you.
+                    </p>
+                    <button type="button" class="btn btn-warning btn-lg custom-button">Customize now</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="shirt_jersey" class="merc-box">
+            <div class="title">
+                <h1>Gam's shirt & jersey</h1>
+                <p class="bar"></p>
+                <p class="ment">Rise with our color</p>
+            </div>
+            <div class="items">
+
+                <a href="" class="item-box">
+                    <img src="Pictures/Mercs/GAM Esports 2022 Official Jersey.webp" alt="">
+                    <p class="item-name">Gam's Jersey</p>
+                    <p class="long-bar"></p>
+                    <p class="price">$300.000đ</p>
+                </a>
+                <a href="" class="item-box">
+                    <img src="Pictures/Mercs/GAM Esports Champion VCS Spring 2022 T-shirt.webp" alt="">
+                    <p class="item-name">VCS Spring 2022 Champion</p>
+                    <p class="long-bar"></p>
+                    <p class="price">$400.000đ</p>
+                </a>
+                <a href="" class="item-box">
+                    <img src="Pictures/Mercs/GAM Esports Official Varsity Jacket 2022.webp" alt="">
+                    <p class="item-name">Gam's Jacket</p>
+                    <p class="long-bar"></p>
+                    <p class="price">$450.000đ</p>
+                </a>
+                <a href="" class="item-box">
+                    <img src="Pictures/Mercs/GAM Esports Official Varsity Jacket 2022.webp" alt="">
+                    <p class="item-name">Gam's Jacket</p>
+                    <p class="long-bar"></p>
+                    <p class="price">$450.000đ</p>
+                </a>
+                <a href="" class="item-box">
+                    <img src="Pictures/Mercs/GAM Esports Official Varsity Jacket 2022.webp" alt="">
+                    <p class="item-name">Gam's Jacket</p>
+                    <p class="long-bar"></p>
+                    <p class="price">$450.000đ</p>
+                </a>
+                <a href="" class="item-box">
+                    <img src="Pictures/Mercs/GAM Esports Official Varsity Jacket 2022.webp" alt="">
+                    <p class="item-name">Gam's Jacket</p>
+                    <p class="long-bar"></p>
+                    <p class="price">$450.000đ</p>
+                </a>
+            </div>
+
+        </div>
+
+        <div id="banner" class="collab-banner">
+            <div class="content">
+                <img src="Pictures/Mercs/banner.jpg" alt="">
+            </div>
+        </div>
+
+        <div id="accessories" class="merc-box">
+            <div class="title">
+                <h1>Gam's accessories</h1>
+                <p class="bar"></p>
+                <p class="ment">Gaming with Gam</p>
+            </div>
+            <div class="items">
+
+                <a href="" class="item-box">
+                    <img src="Pictures/Mercs/GAM Esports 2022 Official Jersey.webp" alt="">
+                    <p class="item-name">Gam's Jersey</p>
+                    <p class="long-bar"></p>
+                    <p class="price">$300.000đ</p>
+                </a>
+                <a href="" class="item-box">
+                    <img src="Pictures/Mercs/GAM Esports Champion VCS Spring 2022 T-shirt.webp" alt="">
+                    <p class="item-name">VCS Spring 2022 Champion</p>
+                    <p class="long-bar"></p>
+                    <p class="price">$400.000đ</p>
+                </a>
+                <a href="" class="item-box">
+                    <img src="Pictures/Mercs/GAM Esports Official Varsity Jacket 2022.webp" alt="">
+                    <p class="item-name">Gam's Jacket</p>
+                    <p class="long-bar"></p>
+                    <p class="price">$450.000đ</p>
+                </a>
+            </div>
+
+        </div>
+
+        <div id="collab" class="merc-box">
+            <div class="title">
+                <h1>Collaboration</h1>
+                <p class="bar"></p>
+                <!-- <p class="ment">Gaming with Gam</p> -->
+            </div>
+            <div class="collab-box">
+                <div class="collab-merc">
+                    <img src="Pictures/Mercs/game4v-MONSTER-ENERGY-3.jpg" alt="">
+                    <p class="ment">GAM X Monster's Energy</p>
+                </div>
+                <div class="collab-merc d-none d-lg-block">
+                    <img src="Pictures/Mercs/game4v-MONSTER-ENERGY-3.jpg" alt="">
+                    <p class="ment">GAM X Monster's Energy</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <ul class="info-group">
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+            <p class="footer-bar"></p>
+            <p class="cpr">Copyright © 2021, GAM Shop All right reseved 2022</p>
+
+        </div>
+
+
+    </footer>
+
+
+    <!-- JS -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
